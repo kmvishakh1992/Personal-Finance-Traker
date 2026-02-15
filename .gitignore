@@ -1,0 +1,63 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Metro / bundler cache
+.expo/
+.expo-shared/
+.cache/
+
+# Build outputs
+android/app/build/
+android/build/
+android/.cxx/
+android/.gradle/
+ios/build/
+ios/Pods/
+
+# Xcode
+*.xcworkspace/
+*.xcuserdata/
+DerivedData/
+*.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# Java/Gradle
+.gradle/
+build/
+
+# Keystores
+*.keystore
+*.jks
+
+# CocoaPods
+ios/Podfile.lock
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Misc
+*.iml
+*.swp
+
+# Optional: ignore Firebase/Google service files if you don't want them in version control
+# (uncomment if you keep these out of source control)
+# GoogleService-Info.plist
+# android/app/google-services.json
+
