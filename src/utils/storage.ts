@@ -52,9 +52,9 @@ export const clearTransactions = async () => {
 export const getCurrency = async (): Promise<string> => {
   try {
     const currency = await AsyncStorage.getItem(CURRENCY_KEY);
-    return currency || '$'; // Default to USD
+    return currency || '₹'; // Default to Indian Rupee
   } catch (e) {
-    return '$';
+    return '₹';
   }
 };
 
